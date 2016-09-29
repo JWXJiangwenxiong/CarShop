@@ -1,0 +1,12 @@
+.favorite{min-height: 580px;}
+
+.favoriteList{margin-right: 130px;margin-left: 80px}
+.favorite h4{height:36px;font:22px/36px "";color: #fff;background-color:#3d3e3d;margin-top: 10px;text-indent:22px;}
+.favorite_scp{height:102px;width: 500px;border: 2px solid #ff4400;margin: 5px 20px;position: relative;}
+.sc_goodsPic{width: 80px;height: 80px;float: left;margin-left:20px;padding:10px}
+.sc_goodsPic img{width: 100%;height: 100%;}
+.sc_goodsTitle{line-height: 20px;color: #999;margin-left: 120px;font-size: 16px}
+.sc_goodsNum{line-height: 20px;font-size: 14px;margin-left: 140px;}
+.sc_goodsPrice{line-height: 20px;font-size: 16px;margin-left: 140px;color: red}
+.decorate{width:800px;height: 450px;position:absolute;right: 80px;top: 50px}
+.clearall{width:120px;height: 40px;line-height: 40px;margin-left:300px;background-color: #b6610e;color: #fff;font-weight: bold;text-align: center;}

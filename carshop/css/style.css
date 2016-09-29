@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,
+fieldset,legend,input,textarea,select
+{margin:0;padding:0;font-family:"微软雅黑"} 
+a{text-decoration:none;color:#000;} 
+em{font-style:normal}
+li{list-style:none}
+img{border:0;} 
+input{border:0;background:none;}
+.wrap{width:1600px; margin:0 auto;position: relative;}
+.header,.nav,.clearfix,.footer,.particulars{min-width:1600px;}
+ .titleBar{border-bottom: 2px solid #dc2411 ;
+margin-bottom:50px;margin-top:30px;}
+.title{width:150px;height: 50px;font: 20px/50px "微软雅黑";font-weight: bold;background: #dc2411;
+text-align: center;color: #fff;border-radius: 50% 50% 0 0 ;}
+/* ------header-------*/
+.header{background: url(../images/headerBg.jpg);height: 40px;}
+.header img{margin-top: 10px;float: right;margin-right: 100px;
+	margin-left: 20px}
+.header #login_box {float: right;color: #fff;margin-top: 7px;}
+.header a{display:block;height:26px;width: 40px;float: left;
+	color: #fff;margin-right:20px;font: 18px/26px "楷体";}
+.header a:hover{color:red;}
+/* ------clearfix-------*/
+.clearfix{height: 116px;background: url(../images/logoBg.jpg);
+	align: center;}
+.clearfix .logo {margin-top:19px;margin-left: 88px;}
+.clearfix #search_box{float: right;margin-top: 60px;
+	border:1px solid gray;background-color: #d4dadb;margin-right: 100px}
+.clearfix #search_box #search{height: 25px;width: 130px;
+	background-color: #d4dadb;text-indent: 10px;float:left;}
+.clearfix #search_box #search1{height:25px;width:26px;float:left;
+	background: url(../images/search1.png ) no-repeat center;border:none;
+	cursor: pointer;}
+/* ------nav-------*/
+.nav{height: 40px;border-top:2px solid #dfd9d9;;
+	border-bottom:2px solid #dfd9d9;}
+.nav ul a{display:block;float:left;height: 40px;width: 90px;
+	margin-right: 87px;margin-left: 88px;font:16px/40px "";
+	font-weight: bold;color: #000;text-align: center;}
+.nav .shouye{background:url(../images/aHover.jpg) no-repeat bottom;}	
+.nav ul a:hover{background:url(../images/aHover.jpg) no-repeat bottom;
+	color: #f48416}
+.nav table{height: 230px;width: 800px;background:#fff;position: absolute;left:300px;top: 40px;
+	z-index:2;display: none}
+
+.h5Title{width:65px;height:21px; background:url(../images/h5Bg.jpg) left center no-repeat;
+	line-height:21px;color:#fff; font-size:14px; font-weight:bold; text-align:center;}
+.sel1{width:75px;}
+
+.selectBox td a{margin-left:10px;font-size:14px ;}
+.selectBox td a:hover{background-color:#e40f46 ;}
+.sel2{line-height:50px;}
+.recommend{height: 320px;width:1600px;position: absolute;top: 40px;z-index: 2;background-color: #fff;
+display:none;}
+dl{height: 260px;width: 300px;float: left;margin-right:76px;padding:10px;margin-top:10px;
+	border: 1px solid #999;text-align: center }
+dl h3{color: red;}
+dl p{height: 30px;font:14px/30px " ";}
+dl a{color: #4d0808;font-size: 12px;text-decoration: underline;}	
+/* ------slider-------*/
+.slider{height:596px;}
+.slider .example ol{position:relative;width: 80px;height: 20px;top:-30px;left:60px;}
+.slider .example ol li{float:left;width: 10px;height: 10px;margin: 5px;background: #fff;}
+.slider .example ol li.seleted{background: #1AA4CA;}
+
+/* ------streamer-------*/
+#streamer1{background:url(../images/hengfu1.jpg);background-size: 100% 100%}
+#streamer2{background:url(../images/hengfu2.jpg);background-size: 100% 100%}
+#streamer3{background:url(../images/hengfu3.jpg);background-size: 100% 100%}
+.more a{display:block;height:20px;width:20px;background:url(../images/more.jpg) 
+	no-repeat left;margin-top:10px }
+.more a:hover{background:url(../images/zuojian.jpg) 
+	no-repeat left}	
+/* ------imglist-------*/
+.imglist .wrap{height: 640px;}
+#uli{width: 1600px; margin: auto 0}
+#uli li{width: 300px;float: left;margin-right: 20px;}
+#uli p{font-size: 14px;text-align: center}
+#uli .price{color: red;font-weight: bold;font-size: 16px}
+#uli li div{padding: 10px; margin-bottom: 30px;position: relative;}
+#uli li div img{width: 220px; height: 165px;display: block;position: absolute;}
+#uli li div .imgbox{width: 220px; height: 165px;padding:0 ;margin: 0 auto;overflow: hidden;position: relative;}
+.more2{display: block;height: 20px;width: 100px;color: black;position: absolute;right: 220PX;
+	bottom: 30PX;font-size: 14px}
+.more2:hover{color: red;text-decoration: underline;}
+.morem{display: block;height: 20px;width: 100px;color: black;position: absolute;right: 0;
+	bottom: 0;font-size: 14px}
+.morem:hover{color: red;text-decoration: underline;}
+#uli span{display:block;height:16px;width:50;text-indent: 18px;font:13px/16px" ";position: absolute;
+bottom: -10px;color:#999;cursor:pointer; }
+.sc{background: url(../images/sc1.jpg) no-repeat left center;left: 50px;}
+.db{background: url(../images/db.png) no-repeat left center;right: 50px;}
+/* ------newlist-------*/
+.newlist .wrap{min-height:570px;}
+.news{min-height: 400px;width:700px;margin-left: 50px;float: left}
+.news h4{height: 30px;font:18px/30px "微软雅黑";}
+.news a{color:#2e79ea;}
+.news a:hover{color: red;text-decoration: underline;}
+.news p{height: 60px;font:14px/30px " ";color:#999;}
+.video{min-height: 400px;width:800px;float:left;margin-left:50px }
+.videolist h4{color: #1283ec}
+.videolist img{opacity: 0.7;filter: alpha(opacity=80)}
+.videolist li {float: left}
+.videolist li div{width: 160px;height: 120px;margin: 15px}
+.videolist p {width: 160px;height: 30px;font:12px/30px " ";text-align: center}
+.videolist p:hover{color: red;text-decoration: underline;}
+.erweima {height: 150px;width: 150px;text-align: center;font-size:14px;float: right;margin-top: 10px;
+	margin-right:50px }
+.erweima h3{font-family:"楷体";}
+.videomore{height: 140px;width: 250px;float:left;margin:10px;position: relative;}
+.videomore a{display:block;text-indent: 25px; height: 20px;
+	background: url(../images/vdt.jpg) no-repeat left center;font:12px/20px " ";color: #999}
+.videomore a:hover{color: red;text-decoration: underline;}
+.videomore .more2{display:block;height:20px;width:80px;position: absolute;right: 500px;bottom: -100px}
+/* ------others-------*/
+.others .wrap{min-height: 450px;padding-bottom: 30px}
+.others .address{margin-left:80px; }
+.others .address .map{float: left;}
+.others .welcome{height:320px;float: left;margin-left: 20px;position: relative;}
+.others .welcome p{width:300px;height: 30px;font:16px/30px " ";}
+.contact{height: 221px;width: 261px;margin-left: 50px;position: absolute;right: 0;bottom: 0}
+.others .welcome .p4{width:120px;height: 60px;font:22px/30px "隶书";color:#e30860 }
+.others .linklist ul{width:100px;float: left;min-height: 100px;margin:0 60px;}
+.others .linklist ul li{width:100px;height: 30px;font:12px/30px " ";text-align: center}
+.others .linklist ul .li_title{width:100px;height: 40px;font:18px/40px " ";color: #1283ec;font-weight:bold;text-align: center}
+.others .linklist ul li a:hover{color: red;text-decoration: underline;}
+/* ------footer-------*/
+.footer{background: url(../images/footbg.jpg);height: 146px;margin-top: 5px}
+.footer .wrap{text-align: center}
+.footer .wrap a {color: #fff;margin: 0 10px}
+.footer .wrap a:hover{color: red;text-decoration: underline;}
+.footer .wrap p {color: #fff;height: 30px;font:12px/30px " ";}
+
+/* ------favorite-------*/
+#favorite_2{height: 147px;width: 25px;position:absolute;right:0;}
+#favorite{height: 147px;width:284px;position:fixed;left:-259px;top: 200px;z-index:999;}
+#favorite_1{min-height: 147px;width: 259px;background: url(../images/fuchuang3.gif);position:absolute}
+#favorite_1 h4 a{display:block;height: 30px;width: 259px;font-weight: bold;text-align: center;color: #FFF;font:16px/30px " ";background: #ff4400}
+.scp{height:30px;width:257px;color:#fff;font:12px/30px ' ';border:1px solid yellow;text-align:center;position:relative}
+.removesc{display:block;height:30px;width:30px;color:#fff;font:12px/30px ' ';text-align:center;position:absolute;right:0;background:#ff4400;top:0;cursor:pointer}
+
+/* ------returntop-------*/
+.r_skill{position:fixed;bottom: 200px;right: 80px;cursor: pointer;}
+.returnTop{position:relative;border:1px solid #ff4400;height: 36px;width: 63px;display: none;}
+.r1{position:absolute;background: red;color:#fff;text-decoration:10px;
+	height: 34px;width: 61px;font: 14px/18px " ";padding:1px;text-align: center;opacity: 0.9;display: none;}
+.feedback{position:relative;border:1px solid #ff4400;height: 63px;width: 63px;}
+.f1{position:absolute;background: #ff4400;color:#fff;text-decoration:10px;
+	height: 61px;width: 61px;font: 18px/30px " ";text-align: center;opacity: 0.9;display: none;padding:1px}
+/* ------信贷服务particulars-------*/
+.particulars{height: 864px;}

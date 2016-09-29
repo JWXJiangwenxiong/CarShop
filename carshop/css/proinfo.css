@@ -1,0 +1,21 @@
+body{background-color: #e7e6e6}
+body .nav {background:#fff;}
+.proinfo{height: 580px;}
+.carphoto{position: relative; width: 800px; height: 580px;overflow: hidden;float: left;}
+.proinfo h4{height:36px;font:22px/36px "";color: #fff;background-color:#3d3e3d;margin-top: 10px;text-indent:22px;}
+.bigphoto{height: 400px;width: 800px;margin:10px 0 ;}
+.bbb{height: 100%;width: 100%}
+.smallphoto {height: 154px;position: absolute; left: 0;bottom:0;}
+.smallphoto li{float:left;padding:0 5px;height: 154px;width: 244px;}
+.smallphoto li img{height: 100%;width: 100%}
+ .Toleft{height: 154px;width: 17px;background:url(../images/prev_page.png) no-repeat left center;background-size: 100% 100%; position: absolute;bottom: 0;left: 0}
+ .Toright{height: 154px;width: 17px;background:red;background:url(../images/next_page.png) no-repeat left center;background-size: 100% 100%;position: absolute;bottom: 0;right: 0}
+ .carRev{float: left;margin-left: 80px;position: relative;height: 580px}
+ .carRev h5{margin-left: 100px;margin-top: 50px;font-size: 20px}
+ .carRevlist i{font-style:normal;display:block;height: 30px;width: 200px;text-align: right;float: left;color: #999;font-weight: bold;font-size:14px;margin-right: 20px}
+ .carRevlist li {height: 40px;font: 12px/40px"";}
+ .carRevlist .price{font-size: 30px;color: red;}
+ .tel{position: absolute;bottom:150px;left:100px }
+ .joinsc{height: 40px;width: 100px;background: #3871da;position: absolute;left: 100px;bottom: 80px;text-align: center;cursor: pointer;}
+ .joinsc p,.buynow p{font:12px/20px "";color: #fff;font-weight: bold}
+ .buynow{height: 40px;width: 100px;background: #ef702b;position: absolute;left: 300px;bottom: 80px;text-align: center;cursor: pointer;}
